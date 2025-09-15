@@ -1,6 +1,6 @@
 /data/
 /models/
-/env/
+# /env/
 /reports/*.html
 .DS_Store
 .ipynb_checkpoints/

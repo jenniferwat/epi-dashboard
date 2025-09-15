@@ -1,0 +1,21 @@
+name: epi-r
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.4.*
+  - r-irkernel
+  - r-tidyverse
+  - r-sf
+  - r-units
+  - r-lwgeom
+  - r-classint          # for choropleth breaks
+  - r-ggplot2
+  - r-broom
+  - r-janitor
+  - r-data.table
+  - r-readxl
+  # - r-tmap              # optional; remove if still hard to solve
+  # geospatial libs (solver can also choose these automatically, but keeping them explicit is fine)
+  - gdal
+  - geos
+  - proj

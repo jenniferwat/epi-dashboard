@@ -1,0 +1,49 @@
+name: epi-core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - nodejs                # (extensions need it; safe to include)
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - altair
+  - vega_datasets
+  - plotly
+  - scikit-learn
+  - xgboost
+  - shap
+  - pyod
+  - statsmodels
+  - prophet              # conda-forge build; works with cmdstanpy
+  - cmdstanpy            # backend for prophet; downloads Stan toolchain on first run
+  - holidays             # prophet holiday effects
+  - tqdm
+  - pyarrow              # parquet/arrow for large tables
+  - fastparquet
+  - openpyxl
+  - python-dotenv        # secrets in .env
+  - requests
+  # --- Geospatial stack (pull together for GeoPandas) ---
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - rtree                # spatial index
+  - rasterio
+  - contextily
+  # --- Database / Postgres ---
+  - psycopg2
+  - sqlalchemy
+  - sqlalchemy-utils
+  - geoalchemy2
+  - pgcli                # nice psql alternative (optional)
+  # --- Mapping helpers ---
+  - folium
+  - pip
+  - pip:
+      - pyogrio          # fast vector IO (works great with geopandas)

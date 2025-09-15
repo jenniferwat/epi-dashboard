@@ -1,0 +1,16 @@
+name: epi-dl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - statsmodels
+  - pip>=24         # install pip via conda
+  - pip:
+      - "tensorflow==2.16.*"   # CPU build via pip
+      - keras-tuner
