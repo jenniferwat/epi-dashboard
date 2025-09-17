@@ -4,3 +4,4 @@
 /reports/*.html
 .DS_Store
 .ipynb_checkpoints/
+.env

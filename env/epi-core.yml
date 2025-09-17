@@ -41,9 +41,9 @@ dependencies:
   - sqlalchemy
   - sqlalchemy-utils
   - geoalchemy2
-  - pgcli                # nice psql alternative (optional)
+  - pgcli                # psql alternative 
   # --- Mapping helpers ---
   - folium
   - pip
   - pip:
-      - pyogrio          # fast vector IO (works great with geopandas)
+      - pyogrio          # Vector IO with geopandas
