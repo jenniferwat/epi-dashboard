@@ -8,8 +8,8 @@ ETL pipeline -> Postgres -> PowerBI
 (automated refresh to be looked into)
 
 Setup:
-Database schema in /scripts under schema.sql
-ETL in /src as modular .py files 
+Database schema in /src/db under schema.sql
+ETL in /scripts as modular .py files 
 
 Dashboard screenshot:
 tbd
